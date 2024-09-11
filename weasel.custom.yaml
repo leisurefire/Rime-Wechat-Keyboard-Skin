@@ -1,0 +1,35 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Mar 15 20:51:14 2024"
+  rime_version: 1.8.5
+patch:
+  "preset_color_schemes/wechat-keyboard":
+    name: "wechat-keyboard"
+    author: leisurefire
+    text_color: 0x424242
+    back_color: 0xFFFFFF
+    border_color: 0xDDDDDD
+    label_color: 0x828282
+    candidate_text_color: 0x525252
+    comment_text_color: 0x999999
+    hilited_back_color: 0xDDDDDD
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x999999
+    hilited_label_color: 0xFFFFFF
+    hilited_text_color: 0x424242
+    shadow_color: 0x3d000000
+  style:
+    color_scheme: "wechat-keyboard"
+    preedit_type: composition
+    label_format: "%s"
+    font_point: 13
+    font_face: HarmonyOS Sans SC
+    label_font_point: 10
+    comment_font_point: 9
+    horizontal: true
+    inline_preedit: true
+    layout: {align_type: center, border: 1, candidate_spacing: 5, corner_radius: 8, hilite_padding: 4, hilite_spacing: 4, margin: 4, round_corner: 6, shadow_radius: 8, shadow_offset_x: 3, shadow_offset_y: 3}
+  "style/color_scheme": "wechat-keyboard"
